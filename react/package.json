@@ -4,7 +4,8 @@
   "description": "Aplicacion de ejemplo hecha en react",
   "main": "webpack.local.config.js",
   "scripts": {
-    "build": "webpack-dev-server --config webpack.local.config.js"
+    "build": "webpack-dev-server --config webpack.local.config.js",
+    "build:production": "webpack-dev-server --config webpack.production.config.js"
   },
   "author": "",
   "license": "ISC",
