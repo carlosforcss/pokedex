@@ -6,6 +6,96 @@
 	box-sizing: border-box;
 }
 
-body{
-	background: red;
+.body{
+	background: floralwhite;
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.bar-container{
+	background: green;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.bar{
+	width: 80%;
+	max-width: 600px;
+	height: 50px;
+	font-size: 15px;
+	text-align: center;
+	color: indigo;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.bar-button{
+	border-radius: 5px;
+	padding: 5px;
+	width: 40%;
+	max-width: 300px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.card-header{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+.card-header-title{
+	color: indigo;
+	font-size: 2em;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+}
+
+.card-header-image{
+	background: lightcoral;
+	display: flex;
+	width: 100%;
+	padding: 20px;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-image{
+	border-radius: 100%;
+	width: 20%;
+	background: maroon;
+}
+
+.card-header-title{
+	padding: 10px 20px;
+	width: 80%;
+	text-align: center;
+	border-bottom: 1px solid mediumblue;
+}
+
+.card-body{
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	background: blueviolet;
+}
+
+.stat-bar{
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+}
+
+.stat-value{
+	text-align: center;
 }
